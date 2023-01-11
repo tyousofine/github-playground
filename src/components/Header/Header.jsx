@@ -12,10 +12,16 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <h1 className='header-title bg-primary text-white p-4'>
-          This is the Header component created by William
-        </h1>
+        <div>
+          <h1 className='header-title bg-primary text-white p-4'>
+            This is the Header component created by William
+          </h1>
+        </div>
+        <div>
+            <h2>Branch test</h2>
+        </div>
       </div>
     );
   }
 }
+4;
