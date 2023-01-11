@@ -1,0 +1,21 @@
+/** @format */
+
+import React from 'react';
+
+import 'bootstrap/dist/css/bootstrap.css';
+import './Header.css';
+
+export default class Header extends React.Component {
+  constructor() {
+    super();
+  }
+  render() {
+    return (
+      <div>
+        <h1 className='header-title bg-primary text-white p-4'>
+          This is the Header component created by William
+        </h1>
+      </div>
+    );
+  }
+}
